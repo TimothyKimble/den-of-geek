@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.bg-grey{
+  background-color: rgb(233, 239, 243);
+}
+
+.hero-img{
+  background-image: url(https://images.unsplash.com/photo-1511512578047-dfb367046420?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+
+.banner{
+  border: 5px solid black;
+  width: auto;
+}
+
+.px-10{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn-tv{
+  height: 25px;
+  width: 30px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-movie{
+  height: 25px;
+  width: 75px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-game{
+  height: 25px;
+  width: 75px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  height: 20vh;
+}
